@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <title>Document</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>Posts</h1> <br>
+            <div class="form-group">
+                <select name="state" id="maxRows" class="form-control" style="width: 120px">
+                    <option value="1000">Show All</option>
+                    <option value="5">Show 5</option>
+                    <option value="10">Show 10</option>
+                    <option value="25">Show 25</option>
+                    <option value="50">Show 50</option>
+                </select>
+                
+            </div>
+            <table class="table table-bordered table-striped table-hover" id="post_table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Body</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <div class="pagination-container">
+                <nav aria-label="...">
+                    <ul class="pagination">
+                       
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <script src="script.js">
+        </script>
+    </body>
+</html>
+
+
+<!--JSON file provided by jsonplaceholder.typicode.com/posts-->
